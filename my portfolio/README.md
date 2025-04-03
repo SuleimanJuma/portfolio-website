@@ -6,7 +6,7 @@ This is a personal portfolio website that showcases my skills, projects, and ach
 
 - HTML
 - CSS
-- (Add any other technologies used, like JavaScript or frameworks)
+- JavaScript 
 
 ## Features
 
@@ -19,8 +19,5 @@ This is a personal portfolio website that showcases my skills, projects, and ach
 1. Clone this repository using `git clone https://github.com/SuleimanJuma/portfolio-website.git`.
 2. Open the `index.html` file in a browser to view the portfolio.
 
-## Live Demo (if applicable)
-
-If you have a live version of your site (e.g., hosted on GitHub Pages or another platform), add the link here.
-
-[View Live Demo](https://your-live-site-link.com)
+## Live Demo 
+https://portfolio-website-ecru-beta.vercel.app/
