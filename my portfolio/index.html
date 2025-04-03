@@ -6,6 +6,7 @@
   <title>Suleiman Juma | Portfolio</title>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="Images/favicon.svg">
 </head>
 <body>
   <!-- Dark Mode Toggle -->
@@ -92,7 +93,7 @@
           <p>Built with React & Node.js</p>
         </div>
         <div class="project-card">
-          <img src="Images/Sule%20logo%20(2).png" alt="Portfolio Website" class="project-image">
+          <img src="Images/portfolio%20website1.png" alt="Portfolio Website" class="project-image">
           <h3>Portfolio Website</h3>
           <p>Minimalist and Responsive Design</p>
         </div>
@@ -116,13 +117,13 @@
       <h2 class="section-title">Image Gallery</h2>
       <div class="gallery-grid">
         <div class="gallery-item">
-          <img src="Images/images/IMG_20220511_064718_418.jpg" alt="Gallery Image 1">
+          <img src="Images/suley2.jpeg" alt="Gallery Image 1">
         </div>
         <div class="gallery-item">
-          <img src="Images/images/IMG_20240315_144720_144.jpg" alt="Gallery Image 2">
+          <img src="Images/suley3.jpeg" alt="Gallery Image 2">
         </div>
         <div class="gallery-item">
-          <img src="Images/images/IMG-20240419-WA0018.jpg" alt="Gallery Image 3">
+          <img src="Images/suley4.jpeg" alt="Gallery Image 3">
         </div>
       </div>
     </div>
@@ -167,16 +168,16 @@
       <h2 class="section-title">Get In Touch</h2>
       <form class="contact-form">
         <div class="input-group">
-          <input type="text" required>
-          <label>Your Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="name">Your Name</label>
         </div>
         <div class="input-group">
-          <input type="email" required>
-          <label>Your Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="email">Your Email</label>
         </div>
         <div class="input-group">
-          <textarea rows="5" required></textarea>
-          <label>Your Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <label for="message">Your Message</label>
         </div>
         <button type="submit" class="cta-btn">Send Message</button>
       </form>

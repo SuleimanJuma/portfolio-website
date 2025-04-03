@@ -120,6 +120,10 @@ h1, h2, h3 {
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  flex: 0 0 auto; /* Prevent shrinking and set fixed width */
+  width: 300px; /* Set a fixed width for each project card */
+  text-align: center;
+  scroll-snap-align: start; /* Ensure smooth snapping for visibility */
 }
 
 .project-card img.project-image {
@@ -337,4 +341,26 @@ section {
   letter-spacing: 0.1rem;
   display: inline-block;
   padding: 0.5rem 0;
+}
+
+/* Featured Projects */
+.project-grid {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.project-grid::-webkit-scrollbar {
+  height: 8px; /* Add a scrollbar for horizontal scrolling */
+}
+
+.project-grid::-webkit-scrollbar-thumb {
+  background: var(--secondary-color); /* Style the scrollbar thumb */
+  border-radius: 4px;
+}
+
+.project-grid::-webkit-scrollbar-track {
+  background: var(--glass); /* Style the scrollbar track */
 }
