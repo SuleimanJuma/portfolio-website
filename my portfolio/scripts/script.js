@@ -1,4 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Typing Animation for Hero Section
+  const typingElement = document.querySelector(".typing-animation");
+  if (typingElement) {
+    const text = "Building Tomorrow’s Digital World—Securely";
+    const chars = Array.from(text);
+    let i = 0;
+    typingElement.textContent = "";
+    function type() {
+      if (i < chars.length) {
+        typingElement.textContent += chars[i];
+        i++;
+        setTimeout(type, 60);
+      }
+    }
+    type();
+  }
   
 
   // Mobile Menu Toggle
